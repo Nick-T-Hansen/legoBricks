@@ -1,48 +1,29 @@
 {
-  "legos": [
-    {
-      "id": 1
-    },
-    {
-      "id": 2
-    },
-    {
-      "id": 3
-    },
-    {
-      "creatorName": "nana",
-      "legoName": "sf",
-      "legoColor": "sdfsdf",
-      "LegoShape": "asdfas",
-      "id": 4
-    },
-    {
-      "creatorName": "nana",
-      "legoName": "sf",
-      "legoColor": "sdfsdf",
-      "LegoShape": "asdfas",
-      "id": 5
-    },
-    {
-      "creatorName": "nana",
-      "legoName": "sf",
-      "legoColor": "sdfsdf",
-      "LegoShape": "asdfas",
-      "id": 6
-    },
-    {
-      "creatorName": "nana",
-      "legoName": "sf",
-      "legoColor": "sdfsdf",
-      "LegoShape": "asdfas",
-      "id": 7
-    },
-    {
-      "creatorName": "nana",
-      "legoName": "sf",
-      "legoColor": "sdfsdf",
-      "LegoShape": "asdfas",
-      "id": 8
-    }
-  ]
+    "legos": [],
+    "colors": [
+        {
+            "value" : 1,
+            "color" : "Red"
+        },
+        {
+            "value" : 2,
+            "color" : "Green"
+        },
+        {
+            "value" : 3,
+            "color" : "Yellow"
+        },
+        {
+            "value" : 4,
+            "color" : "Blue"
+        },
+        {
+            "value" : 5,
+            "color" : "Orange"
+        },
+        {
+            "value" : 6,
+            "color" : "Black"
+        }
+    ]
 }

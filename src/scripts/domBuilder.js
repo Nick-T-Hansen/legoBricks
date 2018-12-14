@@ -18,9 +18,10 @@ const domBuilder = {
         <input id="lego__shape" name="lego__shape" type="text" autofocus />
         </fieldset>
 
-        <fieldset>
+        <fieldset id = dropdown_color>
         <label for="lego__color">Color:</label>
-        <input id="lego__color" name="lego__color" type="text" autofocus />
+        <select id="lego__color" name="lego__color"/>
+            <option value="1">Red</option>
         </fieldset>
 
         <button class="btn lego__save">Save Lego Creation</button>
@@ -40,3 +41,18 @@ const domBuilder = {
     displayContainer.innerHTML = inputForm;
     }
 }
+
+
+// create a fonction which fetches the colors list, and appends it to the color drop down option
+
+
+fetch("http://localhost:8088/colors")
+.then(colorData => colorData.json())
+.then(colorData => {
+    colorData.forEach(individualColor => {
+        let dropdown_color = document.querySelector("#lego__color"); 
+        let colorList = document.createElement("option");
+        colorList.innerHTML = individualColor.color;
+        dropdown_color.appendChild(colorList);
+    });
+});
